@@ -1,0 +1,44 @@
+@media screen and (max-width: 1000px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+
+  .sidebar a {
+    float: left;
+    border-bottom: 0;
+  }
+
+  .container {
+    margin-left: 0;
+  }
+
+  #introduction {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #introduction .block {
+    width: 100%;
+  }
+
+  #introduction .block:nth-child(2) {
+    margin: 1rem 0;
+  }
+
+  #footer {
+    padding: 10px 10%;
+    position: relative;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .sidebar > span {
+    display: inline-block;
+  }
+
+  .sidebar > nav {
+    display: none;
+  }
+}
