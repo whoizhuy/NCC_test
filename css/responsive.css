@@ -33,12 +33,16 @@
   }
 }
 
-@media screen and (max-width: 420px) {
-  .sidebar > span {
+@media screen and (max-width: 450px) {
+  span.toggle-button {
     display: inline-block;
   }
 
-  .sidebar > nav {
-    display: none;
+  .sidebar .nav.toggle {
+
+  }
+
+  .container .logo {
+    max-width: 90%;
   }
 }

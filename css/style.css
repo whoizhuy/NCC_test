@@ -31,13 +31,16 @@ section {
   overflow: auto;
 }
 
-.sidebar > span {
+span.toggle-button {
   display: none;
   font-size: 30px;
   color: white;
   cursor: pointer;
-  padding: 6px 0;
+  padding: 6px;
   margin-left: 1rem;
+  background-color: black;
+  width: 50px;
+  height: 50px;
 }
 
 .sidebar a {
