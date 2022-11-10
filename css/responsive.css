@@ -38,8 +38,13 @@
     display: inline-block;
   }
 
-  .sidebar .nav.toggle {
+  .sidebar {
+    height: 0;
+    width: 100%;
+  }
 
+  .sidebar a {
+    float: none;
   }
 
   .container .logo {
